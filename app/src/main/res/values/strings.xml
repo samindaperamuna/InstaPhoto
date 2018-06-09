@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">InstaPhoto</string>
+    <string name="comments_activity">Comments</string>
+    <string name="settings_activity">Settings</string>
+    <string name="likes_activity">Likes</string>
+    <string name="block_list_activity">Block List</string>
+    <string name="empty_feed">Your feed is totally empty.</string>
+    <plurals name="likes_count">
+        <item quantity="one">%d like</item>
+        <item quantity="other">%d likes</item>
+    </plurals>
+    <string name="title_activity_followers">Followers</string>
+    <string name="title_activity_following">Following</string>
+    <string name="empty_followers">There is no followers.</string>
+    <string name="empty_following">The person is not following anybody.</string>
+</resources>

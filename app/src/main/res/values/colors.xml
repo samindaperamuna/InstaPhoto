@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2d5d82</color>
+    <color name="colorPrimaryDark">#21425d</color>
+    <color name="colorAccent">#01bcd5</color>
+    <color name="colorAccentLight">#236391</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="grey_bg">#E6E6E6</color>
+    <color name="grey_soft">#F5F5F5</color>
+    <color name="grey_dark">#262626</color>
+    <color name="grey_medium">#BDBFC1</color>
+    <color name="bg_bottom_menu">#f2f2f2</color>
+    <color name="text_like_counter">#2b5a83</color>
+    <color name="btn_default_light_normal">#00000000</color>
+    <color name="btn_default_light_pressed">#40ffffff</color>
+</resources>

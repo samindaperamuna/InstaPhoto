@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_centerVertical="true"
+            app:civ_border_color="@color/grey_soft"
+            app:civ_border_width="1dp" />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ismail_qasim"
+            android:textColor="@color/black"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="20dp"
+            android:padding="2dp"
+            android:textSize="14sp"
+            android:layout_toRightOf="@id/icon"
+            android:textIsSelectable="true"
+            android:textStyle="bold"
+            android:layout_toLeftOf="@+id/btnFollow"/>
+
+        <TextView
+            android:id="@+id/txtUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ismailqasim"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/grey_dark"
+            android:textStyle="normal"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_below="@+id/txtName"
+            android:textSize="12sp"
+            android:padding="2dp"
+            android:layout_toLeftOf="@+id/btnFollow"/>
+
+        <ImageView
+            android:id="@+id/btnFollow"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:clickable="true"
+            android:layout_marginRight="12dp"
+            android:background="@drawable/button_add"
+            android:tint="@color/colorAccent"
+            android:src="@drawable/ic_new_friend"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

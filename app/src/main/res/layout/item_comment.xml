@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            app:civ_border_color="@color/grey_soft"
+            app:civ_border_width="1dp"
+            android:layout_centerVertical="true"  />
+
+        <TextView
+            android:id="@+id/txtComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is so amazing. I can't wait to join your trip man. Lovin it!"
+            android:textColor="@color/black"
+            android:layout_marginTop="2dp"
+            android:layout_marginRight="20dp"
+            android:padding="2dp"
+            android:textSize="14sp"
+            android:layout_toRightOf="@id/icon"
+            android:textIsSelectable="true"
+            android:layout_toLeftOf="@+id/btnMore"/>
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 DAY AGO"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/grey_dark"
+            android:textStyle="normal"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_below="@+id/txtComment"
+            android:textSize="12sp"
+            android:layout_toLeftOf="@+id/btnMore"/>
+
+        <ImageButton
+            android:id="@+id/btnMore"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:clickable="true"
+            android:padding="8dp"
+            android:background="@drawable/btn_feed_action"
+            android:src="@drawable/ic_more_grey"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+
+</FrameLayout>
